@@ -1,0 +1,122 @@
+@font-face {
+  font-family: 'SegoeUI-Light';
+  src: format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+html {
+  background-color: #f2f2f2;
+}
+
+body {
+  font-family: 'SegoeUI-Light', sans-serif;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+
+h1 {
+  font-family: 'SegoeUI-Light', sans-serif;
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+  color: #734013;
+  text-shadow: 1px 1px #fff;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+
+
+h2 {
+    font-family: 'SegoeUI-Light', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #333;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 5px;
+    text-align: center;
+  }
+
+
+button {
+  background-color: #1F85DE;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin-right: 10px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #134673;
+}
+
+
+form {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+label {
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: #134673;
+}
+
+input {
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+}
+
+th {
+  background-color: #aa0a0a;
+  color: white;
+}
+
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.flex-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.flex-large {
+  width: calc(50% - 10px);
+  margin-bottom: 20px;
+  
+}
+
+@media (max-width: 768px) {
+  .flex-large {
+    width: 100%;
+  }
+}
